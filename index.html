@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Johan Andersson</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</header>
+
+<body>
+    <h2>Johan Andersson</h2>
+    <menu>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/johan-a-97422b140/">[LinkedIn]</a></li>
+            <li><a href="https://github.com/johan-andersson01">[GitHub]</a></li>
+        </ul>
+    </menu>
+    <h2>Info</h2>
+    <menu>
+        <ul>
+            <li>[Fourth year in Computer Science @ LTH]</li>
+            <li>[Java, Python, CSS, Javascript]</li>
+            <li>[Current interests: climbing, cooking, programming]</li>
+            <li>[Based in Lund, Sweden]</li>
+            <li>17-09-10: School is fun. All is good.</li>
+        </ul>
+    </menu>
+
+    <h2>Projects:</h2>
+    <menu>
+        <ul>
+            <li><p>CSS</p></li>
+            <li><a href="http://johan-andersson01.github.io/animations/orbit.html">loading animation #1</a></li>
+            <li><a href="http://johan-andersson01.github.io/animations/triple-loading.html">loading animation #2</a></li>
+            <li><p>Javascript</p></li>
+            <li><a href="http://johan-andersson01.github.io/animations/fractaltree/fractal.html">Fractal tree</a></li>
+            <li><a href="https://johan-andersson01.github.io/game-of-life/index.html">Game of Life</a></li>
+        </ul>
+    </menu>
+    <h2>Time until you can hire me (for real):</h2>
+    <h1 id="days"></h1>
+
+    <script>
+        var today = new Date();
+        var grad = new Date("2019-06-01");
+        var d = Math.round((grad - today) / (24 * 3.6e6));
+        document.getElementById('days').innerHTML = d + " days";
+    </script>
+</body>
+
+</html>
