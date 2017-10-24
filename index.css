@@ -31,7 +31,9 @@ li {
   list-style: none;
 }
 
-ul {
+ul li ul li, ul li ul li a {
+  color: rgb(1, 53, 1);
+  display:inline-block;
 }
 
 menu {
