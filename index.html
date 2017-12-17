@@ -1,87 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<header>
-    <title>Johan Andersson</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="index.css">
-</header>
-
+<head>
+<title>Johan Andersson</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
 <body>
-    <h2>Johan Andersson</h2>
-    <menu>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/johan-a-97422b140/">[LinkedIn]</a></li>
-            <li><a href="https://github.com/johan-andersson01">[GitHub]</a></li>
-        </ul>
-    </menu>
-    <h2>Info</h2>
-    <menu>
-        <ul>
-            <li>School: 
-                <ul>
-                    <li>Fourth year in Computer Science @ LTH</li>
-                </ul>
-            </li>
-            <li>Languages:
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>Ruby</li>
-                    <li>Javascript</li>
-                </ul>
-                </li>
-            <li>Interests: 
-                <ul>
-                    <li>Climbing</li>
-                <li>Programming</li>
-            <li>Cooking</li>
-        <li>Movies</li></ul>
-    </li>
-            <li>Location:
-                <ul>
-                    <li>Lund, Sweden</li>
-                </ul>
-            </li>
-            <li>Notes:
-                <ul>
-                        <li>17-09-10: School is fun. All is good.</li>
-                </ul>
-            </li>
-            
-        </ul>
-    </menu>
 
-    <h2>Spare time projects:</h2>
-    <menu>
-        <ul>
-            <li><p>Rails</p></li>
-                <ul>
-                    <li><a href="https://biblion.se">Biblion</a></li>
-                </ul>
-            <li><p>CSS</p>
-                <ul>
-                     <li><a href="http://johan-andersson01.github.io/animations/orbit.html">loading animation #1</a></li>
-                     <li><a href="http://johan-andersson01.github.io/animations/triple-loading.html">loading animation #2</a></li>
-                </ul>
-            </li>
-            <li><p>Javascript</p>
-                <ul>
-                        <li><a href="http://johan-andersson01.github.io/animations/fractaltree/fractal.html">Fractal tree</a></li>
-                        <li><a href="https://johan-andersson01.github.io/game-of-life/index.html">Game of Life</a></li>
-                        <li><a href="http://users.student.lth.se/dat14jan/chinese/shuffle.htm">Chinese character studying</a></li>
-                </ul>
-            </li>
-        </ul>
-    </menu>
-    <h2>Time until you can hire me (for real):</h2>
-    <h1 id="days"></h1>
+<div class="wrapper">
+	<div class="left">
+		<div class="bio box">
+			<a href="https://github.com/johan-andersson01"><div class="row1">
+				<img src="https://avatars1.githubusercontent.com/u/17073827?s=460&v=4" width="50px">
+				<h2>Johan Andersson</h2>
+				</div>
+			</a>
+			<div class="row2">
+				<menu>
+				<ul>
+				<li><a href="mailto:johan-andersson01@protonmail.com">[Mail]</a></li>
+				<li><a href="https://www.linkedin.com/in/johan-a-97422b140/">[LinkedIn]</a></li>
+				<li><a href="https://scholar.social/@blackswan4">[Mastodon]</a></li>
+				</menu>
+			</div>
+		</div>
 
-    <script>
-        var today = new Date();
-        var grad = new Date("2019-06-01");
-        var d = Math.round((grad - today) / (24 * 3.6e6));
-        document.getElementById('days').innerHTML = d + " days";
-    </script>
+		<div class="pinned box">
+				<a href="#">
+					<div class="row1">
+					<h2>Pinned note</h2>
+					</div>
+				</a>
+				<div class="boxr">
+					<menu>
+						<ul>
+							<li><p>- Studying my 4th year of CS @ LTH, Lund</p></li>
+							<li><p>- Window shopping for a job</p></li>
+							<li><p>- Note that many of my skills have been developed during school projects, code of which I do not publish</p></li>
+						</ul>
+					</menu>
+				</div>
+		</div>
+
+		<div class="projects box">
+				<a href="#">
+					<div class="row1">
+					<h2>Launched Projects</h2>
+					</div>
+				</a>
+				<div class="boxr">
+					<menu>
+						<ul>
+							<a href="https://biblion.se"><li>Biblion - a free book donation service</a>
+						</ul>
+					</menu>
+				</div>
+		</div>
+
+		<div class="tags box">
+				<a href="#">
+					<div class="row1">
+					<h2>Interests</h2>
+					</div>
+				</a>
+				<div class="boxr">
+					<menu>
+						<ul>
+							<a href="#"><li>#climbing</a>
+							<a href="#"><li>#cooking</a>
+							<a href="#"><li>#programming</a>
+							<a href="#"><li>#movies</a>
+							<a href="#"><li>#electronic</a>
+							<a href="#"><li>#open-source</a>
+							<a href="#"><li>#free-software</a>
+							<a href="#"><li>#minimalism</a>
+						</ul>
+					</menu>
+				</div>
+			</div>
+
+		<div class="tags box">
+			<a href="#">
+				<div class="row1">
+				<h2>Skills</h2>
+				</div>
+			</a>
+			<div class="boxr">
+				<menu>
+					<ul>
+						<a href="https://github.com/johan-andersson01/biblion"><li>#rails</a>
+						<a href="https://github.com/johan-andersson01/biblion"><li>#ruby</a>
+						<a href="#"><li>#java</a>
+						<a href="#"><li>#python</a>
+						<a href="#"><li>#javascript</a>
+						<a href="#"><li>#php</a>
+						<a href="#"><li>#css</a>
+						<a href="#"><li>#git</a>
+						<a href="#"><li>#python</a>
+					</ul>
+				</menu>
+			</div>
+		</div>
+
+
+	</div>
+
+	<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="400" height="800" class="feed box"
+		src="https://www.mastofeed.com/api/feed?url=https%3A%2F%2Fscholar.social%2Fusers%2Fblackswan4.atom&theme=light&size=100&header=false">
+	</iframe>
+</div>
 </body>
-
 </html>
