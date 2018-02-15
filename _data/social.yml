@@ -1,0 +1,10 @@
+- linkedin:
+  name: LinkedIn
+  url: https://www.linkedin.com/in/johan-a-97422b140/
+- github:
+  name: GitHub
+  url: https://github.com/johan-andersson01
+- scuttlebutt:
+  name: Scuttlebutt
+  url: https://www.scuttlebutt.nz/
+  id: "@LaGQvBAvclCLWOLytfGLTUdSWmnlAQ3tKZq2amU3si0=.ed25519"

@@ -1,0 +1,16 @@
+
+- biblion:
+  title: 'Biblion.se'
+  url: 'https://biblion.se'
+  description: 'free book donations service '
+  lang: 'Rails'
+- skanetrafiken_feeder:
+  title: 'Skånetrafiken Feeder'
+  url: 'https://github.com/johan-andersson01/skanetrafiken_feeder'
+  description: 'personalized feed of buses / trains in Skåne '
+  lang: 'Node'
+- blog:
+  title: 'johan.fun (this site!)'
+  url: 'https://johan.fun'
+  description: 'blog / portfolio / personal space'
+  lang: 'Node'

@@ -1,3 +1,6 @@
+---
+---
+
 <!doctype html>
 <html>
 <head>
@@ -14,8 +17,8 @@
             <section>
                     <h1>Johan Andersson</h1>
                     <p>4th year Computer Science student in Lund.</p>
-                    <p>Currently looking for a summer job!</p>
-                    <p>Do you think we'd be a good fit? <a class="alert" href="mailto:dat14jan@student.lu.se">Send an email!</a></p>
+					<p>Want to get in touch? </p>
+					<a class="alert" href="mailto:dat14jan@student.lu.se">Send an email!</a>
             </section>
                 
         </div>
@@ -25,56 +28,87 @@
         <section>
             <h2>I like to ...</h2>
             <ul>
-                <li>go climbing</li>
-                <li>optimize problems</li>
-                <li>watch foreign film</li>
-                <li>read books</li>
-                <li>learn stuff</li>
+				{% for thing in site.data.interests %}
+					<li>{{thing}}</li>
+				{% endfor %}
             </ul>
             <h2>I want to ...</h2>
             <ul>
-                <li>lift heavy</li>
-                <li>learn Rust</li>
-                <li>read more books</li>
-                <li>DJ more</li>
-                <li>become fluent in JS</li>
+				{% for thing in site.data.todo %}
+					<li>{{thing}}</li>
+				{% endfor %}
             </ul>
             <h2>Free time projects </h2>
             <ul>
-                <div class="double-col">
-                    <li>
-                        <span class="left">
-                            <a href="https://biblion.se">Biblion.se</a>
-                        </span>
-                        <span class="right">
-                            a free book donations service
-                        </span>
-                    </li>
-                    <div class="li-info">
-                        Rails
-                    </div>
-                </div>
-                <div class="double-col">
-                    <li>
-                        <span class="left">
-                            <a href="https://github.com/johan-andersson01/skanetrafiken_feeder">Skånetrafiken Feeder</a>
-                        </span>
-                        <span class="right">
-                            a live feed of your next bus/train departures in Skåne
-                        </span>
-                    </li>
-                    <div class="li-info">
-                            NodeJS
-                    </div>
-                </div>
-            </ul>
-            <h2>You can find me on </h2>
+				{% for project in site.data.projects %}
+						<li>
+							<span class="left">
+								<a href="{{project.url}}">{{project.title}}</a>
+							</span>
+							<span class="right">
+								{{project.description}}
+							</span>
+						</li>
+				{% endfor %}
+			</ul>
+			{% assign nbrposts = site.posts | size %}
+			{% unless nbrposts == 0 %}
+				<h2>Blog posts: </h2>
+			{% endunless %}
+			<ul>
+				{% for post in site.posts %}
+				<li>
+					<span class="left">
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</span>
+					<span class="right">
+						{{post.date | date_to_string}}
+					</span>
+				  </li>
+				{% endfor %}
+			</ul>
+			<h2>Recently read books: </h2>
+			<ul>
+				{% for book in site.data.books %}
+					<li>
+						<span class="left">
+							{{ book.author }}: {{ book.title }}
+						</span>
+						<span class="right">
+							{{book.date | date_to_string}}
+							<span class="bookrating">{{book.rating}}</span>
+						</span>
+					</li>
+				{% endfor %}
+			</ul>
+			<h2>You can find me on: </h2>
             <ul>
-                    <li><a href="https://www.linkedin.com/in/johan-a-97422b140/">LinkedIn</a></li>
-                    <li><a href="https://github.com/johan-andersson01">GitHub</a></li>
-                </ul>
-            </section>
-    </main>
+				{% for platform in site.data.social %}
+					{% if platform.id == null %}
+						<li><a href="{{platform.url}}">{{platform.name}}</a></li>	
+					{% else %}
+						<li><a href="{{platform.url}}">{{platform.name}}</a><div class="right" id=hash> {{platform.id}}</div></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</section>
+	</main>
+	
+	<script>
+		var ratings = document.getElementsByClassName("bookrating");
 
+		for (x = 0; x < ratings.length; x++) {
+			let rating =Number.parseInt(ratings[x].innerHTML);
+			ratings[x].innerHTML = '';
+			for (i = 0; i < 5; i++) {
+				if (i < rating) {
+					ratings[x].innerHTML += "<img src=fruit-filled.png>";
+				}
+				else {
+					ratings[x].innerHTML += "<img src=fruit.png>";
+				}
+			}
+		}
+	</script>
 </body>
 </html>

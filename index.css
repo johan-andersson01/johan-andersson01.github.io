@@ -18,6 +18,7 @@ font-size: 180%;
 
 h2 {
 font-size: 120%;
+padding-bottom: 5px;
 }
 
 h1, h2 {
@@ -26,36 +27,54 @@ h1, h2 {
 
 ul {
     width:100%;
+    margin-bottom: 10px;
 }
 
 p, li {
     padding-left: 20px;
 }
 
+#hash {
+    word-break: break-all;
+    font-family: monospace;
+    font-variant-position: sub;
+}
+
 li {
-    width:80%;
+    width:95%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #444;
 }
 
 a {
-color:rgb(255, 72, 0);
+color:rgb(255, 126, 6);
 text-decoration: none;
+padding:1px;
 }
 
 a:visited {
-    color:rgb(255, 72, 0);
+    color:rgb(255, 126, 6);
 }
 
-.alert {
-    color:rgb(0, 132, 255);
+a:hover {
+    filter:invert(100%);
+}
+
+
+.bookrating {
+    white-space: nowrap;
+}
+.bookrating img{
+    width:20px;
+    height:auto;
+    filter: grayscale(1);
 }
 
 /* Alignments and containers */
 
 header, main {
-    max-width:700px;
+    max-width:900px;
     margin:0px auto;
     padding:20px;
 }
@@ -65,7 +84,7 @@ header {
 }
 
 header .container {
-    width: 85%;
+    width: 100%;
     text-align: center;
 }
 
@@ -73,17 +92,9 @@ header .container {
     padding-right:20px;
 }
 
-.double-col {
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-}
-
-.li-info {
-    width:10%;
-    min-width:40px;
-    text-align: right;
-    color:rgba(255, 64, 0, 0.671);
+.right {
+   text-align: right;
+   color: #777;
 }
 
 .container {
@@ -95,6 +106,9 @@ header .container {
 
 header img {
     border-radius: 50%;
-    width:200px;
+    width:25%;
+    min-width: 200px;
     height:auto;
+    filter: sepia(0.15);
+    margin-bottom: 20px;
 }
