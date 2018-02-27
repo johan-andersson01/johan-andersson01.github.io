@@ -14,3 +14,8 @@
   url: 'https://github.com/johan-andersson01/johan-andersson01.github.io'
   description: 'blog / portfolio / personal space'
   lang: 'Node'
+- gameoflife:
+  title: 'game of life'
+  url: 'https://johan.fun/game-of-life/index.html'
+  description: 'Conway's game of life (interactive)'
+  lang: 'Javascript'
