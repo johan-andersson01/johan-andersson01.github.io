@@ -1,11 +1,11 @@
 
 - biblion:
-  title: 'Biblion.se'
+  title: 'biblion.se'
   url: 'https://biblion.se'
   description: 'free book donations service '
   lang: 'Rails'
 - skanetrafiken_feeder:
-  title: 'Skånetrafiken Feeder'
+  title: 'skånetrafiken feeder'
   url: 'https://github.com/johan-andersson01/skanetrafiken_feeder'
   description: 'personalized feed of buses / trains in Skåne '
   lang: 'Node'
@@ -14,8 +14,8 @@
   url: 'https://github.com/johan-andersson01/johan-andersson01.github.io'
   description: 'blog / portfolio / personal space'
   lang: 'Node'
-- gameoflife:
+- game:
   title: 'game of life'
   url: 'https://johan.fun/game-of-life/index.html'
-  description: 'Conway's game of life (interactive)'
+  description: "interactive Conway's game of life"
   lang: 'Javascript'
