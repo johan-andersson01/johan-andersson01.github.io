@@ -5,8 +5,8 @@
   description: 'free book donations service '
   lang: 'Rails'
 - skanetrafiken_feeder:
-  title: 'skånetrafiken feeder'
-  url: 'https://github.com/johan-andersson01/skanetrafiken_feeder'
+  title: 'skåne bussfeed'
+  url: 'https://github.com/johan-andersson01/skane_bussfeed'
   description: 'personalized feed of buses / trains in Skåne '
   lang: 'Node'
 - blog:
