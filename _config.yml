@@ -1,2 +1,7 @@
 encoding: utf-8
 markdown: kramdown
+theme: minima
+title: johan.fun
+author: Johan Andersson
+description: 'personal space / blog / portfolio'
+mail: johan-andersson01@protonmail.com

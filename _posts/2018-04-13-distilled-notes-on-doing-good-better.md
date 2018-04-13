@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  'Doing Good Better, a summary'
+title:  'Distilled notes on "Doing Good Better"'
 ---
-
-# Distilled notes on Doing Good Better
 
 When trying to improve the world, one should not solely focus on doing. One should also focus on doing where it matters most. This is the main theme in William MacAskill's book [Doing Good Better](https://www.effectivealtruism.org/doing-good-better/).
 
 This blog post is not an attempt at introducing the concept of [Effective altruism](https://en.wikipedia.org/wiki/Effective_altruism) (EA), but rather an attempt at summarizing the contents of Doing Good Better. Summarizing this info will surely give a newcomer some sense of what EA is, but if you're new to this area there are better [ways to get introduced](https://whatiseffectivealtruism.com/).
 
- The primary goal of this write-up is to strengthen knowledge in people already familiar with the basic concept, but who feel they lack content. It is thus not aimed to be some sort of introduction to EA, of which there are already a plenty (including this book).
+ The primary goal of this write-up is to strengthen the knowledge in people already familiar with the basic concept, but who feel they lack content. It is thus not aimed to be some sort of introduction to EA, of which there are already a plenty (including this book).
 
 In short, this is for those who can't find the time, but naturally it is hard to accurately comprise a 200-page book into one blog post.
 
@@ -60,15 +58,23 @@ Even though your country may be divided in wealth distribution and you may feel 
 - income above $28K/year: top 5% globally
 - income above $11K/year: top 15% globally
 
-Doubling a person's income will increase the subjective well-being by the same amount, regardless of the income size. Thus, increasing your $28K salary to $30K won't affect your happiness by any large degree. Donating those $2000 could however double the happiness of two people earning $1000 a year.
+A student in Sweden with maxed student loans and allowances has a yearly income of about 110,000-120,000 Swedish kronor, which is roughly $13K-14K US dollars. This puts Swedish students in the global top 15%, even though Swedish students are commonly referred to as relatively poor within the country.
 
-This is not to say that this would be the most effective thing you could do, but it shows that 
+Chances are that you, the reader, are either a student with a comparable income to the Swedish student or someone in the working world with a greater income. Even though you might feel like you're not well off in your own country, you can still make a considerable difference to people much poorer and worse off than you. And if you feel like you're well off, why not try to spread that feeling to others in the world?
+
+Thus, you are able to do **something**. But what should you do?
 
 ## Weighing suffering
 
-It is hard to compare different sorts of suffering. To help, we can try to quantitize suffering and use a metric to compare different sorts of suffering, in order to evaluate where the need for support is the greatest.
+Arguably, one of the best things you can do in the world is to reduce others' suffering. But rather than just arbitrarily choosing some form of suffering, should we not try to optimize the amount of suffering we can reduce? If so, we would need a method of comparison.
 
-One such metric is [QUALY (quality-adjusted life years)](https://en.wikipedia.org/wiki/Quality-adjusted_life_year). Using a metric like QUALY helps us in deciding who we should help. For example: should we donate $4000 to a guide dog training charity in order to train one guide dog for one person suffering from blindness, or should we donate $4000 to a charity fighting [trachoma](https://en.wikipedia.org/wiki/Trachoma) and cure hundreds of people suffering from blindness? In which scenario do we gain the most QUALYs for our buck? Obviously in the latter scenario.
+It turns out however that it is hard to compare different sorts of suffering. How would you compare the suffering of someone with cancer and someone with AIDS? To help, we can try to quantitize suffering and use a metric for comparison, in order to evaluate where the need for support is the greatest.
+
+One such metric is [QUALY (quality-adjusted life years)](https://en.wikipedia.org/wiki/Quality-adjusted_life_year). Using a metric like QUALY helps us in deciding who we should help. 
+
+For example: should we donate $4000 to a guide dog training charity in order to train one guide dog for one person suffering from blindness, or should we donate $4000 to a charity fighting [trachoma](https://en.wikipedia.org/wiki/Trachoma) and cure hundreds of people suffering from blindness? 
+
+In which scenario do we gain the most QUALYs for our buck? Obviously, the latter.
 
 ## If you don't want to fight on the front lines
 
@@ -158,7 +164,7 @@ MacAskill summarized some problems and their traits in a table (I think these ar
 
 ---
 
-## What shoud you do now?
+## What should you do now?
 
 > A donation of $3,400 can provide bed nets that will save someone’s life, deworm seven thousand children, or double the income of fifteen people for a year.
 
@@ -166,12 +172,12 @@ You don't have to be trapped in war in order to save a large number of lives, li
 
 > Every one of us has the power to save dozens or hundreds of lives, or to significantly improve the welfare of thousands of people. We might not get books or films written about us, but we can each do an astonishing amount of good, just as Schindler did.
 
-MacAskill recommends 4 main points that you can do in order to make a difference.
+MacAskill recommends four main points that you can do in order to make a difference:
 
-1. Establish a habit of regular (effective) giving. Remember that [committing yourself to payments or savings in beforehand increases your chance of success](https://eml.berkeley.edu/~webfac/emiguel/e271_s04/SEED.pdf).
+1. Establish a habit of regular (effective) giving. Remember that [committing yourself to payments or savings in beforehand increases your chances for success](https://eml.berkeley.edu/~webfac/emiguel/e271_s04/SEED.pdf).
 2. Write down a plan of how you are to incorporate effective altruism into your life.
 3. Join the effective altruism community
-4. Tell others about the idea of giving effectively.
+4. Tell others about the idea of Effective altruism or giving effectively.
 
 You don't have to follow those four points, but if you feel empowered by the idea that you can make a big postive change in other people's lives then consider doing at least one or two of those points.
 
@@ -183,10 +189,9 @@ You don't have to follow those four points, but if you feel empowered by the ide
 - [Wikipedia article on the book](https://en.wikipedia.org/wiki/Doing_Good_Better)
 - [GoodReads entry (rating: 4.2)](https://www.goodreads.com/book/show/23398748-doing-good-better)
 - [Five questions for effective altruism](https://makewealthhistory.org/2016/10/10/five-questions-for-effective-altruism/)
-
 - [William MacAskill on Twitter](https://twitter.com/willmacaskill)
-
 - [80,000 hours: Applying EA to your career](https://80000hours.org/)
+- [A great panel discussion on EA with William MacAskill and Giles Fraser](https://youtu.be/Qslo4-DpzPs)
 
 
 
@@ -194,12 +199,14 @@ You don't have to follow those four points, but if you feel empowered by the ide
 
 Unattributed quotes are cited directly from the book (version 1).
 
-While I do provide some URLs to external sources, these are additional reading that I judged to be relevant. Doing Good Better has been the sole source used while writing this.
+While I do provide some URLs to external sources, these for are additional reading that I think are relevant. Doing Good Better has been the sole source used while writing this.
 
-Do not count on this to be an accurate summary, if you wish to feel that you've read the book.
+Do not count on this to be an accurate summary if you wish to feel that you've read the book, since I have probably:
 
-- I have probably cherry picked content. 
-- I have probably injected my own thoughts/writings.
+- cherry picked content. 
+- injected my own thoughts/writings.
 
 Instead, if this peaked your interest, consider reading it (I have a physical copy you can borrow if you are geographically near me).
+
+If you find something incorrect with this post, please contact me [by mail](mailto:{{ site.mail}}) or submit an issue on [GitHub](https://github.com/johan-andersson01/johan-andersson01.github.io).
 
