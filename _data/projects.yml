@@ -19,3 +19,9 @@
   url: 'https://johan.fun/game-of-life/index.html'
   description: "interactive Conway's game of life"
   lang: 'Javascript'
+- typefast:
+  title: 'type fast'
+  url: 'https://github.com/johan-andersson01/typefast'
+  description: 'game to improve your typing speed'
+  lang: 'c'
+  
