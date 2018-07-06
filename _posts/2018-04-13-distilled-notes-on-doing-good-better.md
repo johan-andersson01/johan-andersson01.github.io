@@ -13,14 +13,14 @@ In short, this is for those who can't find the time, but naturally it is hard to
 
 ## Good intentions do not necessitate good effects
 
-In 1995 the [PlayPump](https://en.wikipedia.org/wiki/Roundabout_PlayPump) had its first installment. It was a a water pump designed for kids who would spin it around and have fun, while simultaneously pumping up water from the ground. It was a **good intention**, that would later be shown to have negative effects.
+In 1995 the [PlayPump](https://en.wikipedia.org/wiki/Roundabout_PlayPump) had its first installment. It was a water pump designed for kids who would spin it around and have fun, while simultaneously pumping up water from the ground. It was a **good intention**, that would later be shown to have negative effects.
 
 The project received endorsements from numerous influential people:
 
 - Steve Case (then CEO of AOL)
 - Jay-Z (Hip-hop artist)
-- Bill Clinton (former president of the U.S.)
-- Laura Bush (then first lady of the U.S.)
+- Bill Clinton (former president of the US.)
+- Laura Bush (then first lady of the US.)
 
 In 2008, PlayPumps' founder said:
 
@@ -30,7 +30,7 @@ In 2008, PlayPumps' founder said:
 
 > "Much of the time, women of the village ended up pushing the merry-go-round themselves—a task they found tiring, undignified, and demeaning."
 
-> A woman in Mozambique said, “From five A.M., we are in the fields, working for six hours. Then we come to this pump and have to turn it. From this, your arms start to hurt. The old hand pump was much easier.”
+> A woman in Mozambique said, “From five AM., we are in the fields, working for six hours. Then we come to this pump and have to turn it. From this, your arms start to hurt. The old hand pump was much easier.”
 
 > One reporter estimated that, in order to provide a typical village’s water needs, the merry-go-round would have to spin for twenty-seven hours per day.
 
@@ -52,7 +52,7 @@ Don't evaluate a charity by judging its intentions; evaluate it by judging its e
 
 ## How much can you do?
 
-Even though your country may be divided in wealth distribution and you may feel poor in comparison to the richest of the rich, you are in all likelihood in the top from a global perspective.
+Even though your country may be divided in its wealth distribution and you may feel poor in comparison to the richest of the rich, you are in all likelihood in the top from a global perspective.
 
 - income above $52K/year: top 1% globally
 - income above $28K/year: top 5% globally
@@ -62,13 +62,13 @@ A student in Sweden with maxed student loans and allowances has a yearly income 
 
 Chances are that you, the reader, are either a student with a comparable income to the Swedish student or someone in the working world with a greater income. Even though you might feel like you're not well off in your own country, you can still make a considerable difference to people much poorer and worse off than you. And if you feel like you're well off, why not try to spread that feeling to others in the world?
 
-Thus, you are able to do **something**. But what should you do?
+You are able to do **something**. But what should you do?
 
 ## Weighing suffering
 
 Arguably, one of the best things you can do in the world is to reduce others' suffering. But rather than just arbitrarily choosing some form of suffering, should we not try to optimize the amount of suffering we can reduce? If so, we would need a method of comparison.
 
-It turns out however that it is hard to compare different sorts of suffering. How would you compare the suffering of someone with cancer and someone with AIDS? To help, we can try to quantitize suffering and use a metric for comparison, in order to evaluate where the need for support is the greatest.
+It turns out however that it is hard to compare different sorts of suffering. How would you compare the suffering of someone with cancer and someone with AIDS? To help, we can try to quantize suffering and use a metric for comparison, in order to evaluate where the need for support is the greatest.
 
 One such metric is [QUALY (quality-adjusted life years)](https://en.wikipedia.org/wiki/Quality-adjusted_life_year). Using a metric like QUALY helps us in deciding who we should help. 
 
@@ -78,7 +78,7 @@ In which scenario do we gain the most QUALYs for our buck? Obviously, the latter
 
 ## If you don't want to fight on the front lines
 
- You don't have to join Doctors Without Borders. You don't have to volunteer in poor, remote villages. You don't have to give up your privileged urban life in order to help people.
+You don't have to join Doctors Without Borders. You don't have to volunteer in poor, remote villages. You don't have to give up your privileged urban life in order to help people.
 
 Instead, you can save people and make a real difference by donating some of your income to effective charities (i.e. not PlayPump). If you're a student, try donating 1% of your income. If you're working, see if you can donate somewhere up to 10% of your income.
 
@@ -90,7 +90,7 @@ Consider two "recent" disasters:
 
 - Earthquake in Fukushima, Japan (2011)
 
-    - Millions of people left without electricy or water
+    - Millions of people left without electricity or water
     - 15,000 dead
 
 - Earthquake in Haiti (2010)
@@ -101,13 +101,15 @@ Consider two "recent" disasters:
 
 In both cases there was massive global media coverage and large humanitarian relief efforts. In each case the international aid raised amounted to about $5 billion.
 
-Even though Japan is thirty times richer than Haiti (per capita) and even though 150,000 people died in Haiti (vs 15,000 in Japan), the raised international aid resulted in rougly the same amount. 
+Even though Japan is thirty times richer than Haiti (per capita) and even though 150,000 people died in Haiti (vs 15,000 in Japan), the raised international aid resulted in roughly the same amount. 
 
 If the global community had been rational we would not have given Japan as much as we had given Haiti, it being a poorer country and much more affected.
 
 It seems that donors don't consider differences in scale and severity of disasters. Instead it seems that people donate to widely publicized disasters. ([A 2008 earthquake in China](https://en.wikipedia.org/wiki/2008_Sichuan_earthquake) that killed 87,000 people only received $500 million in donations - probably due to its lesser media coverage)
 
 > Funding seems to be allocated in proportion with how evocative and widely publicized the disaster is, rather than on the basis of its scale and severity.
+
+If you feel despondent by being told to not donate to people in immediate danger, consider that there are other people in immediate danger too - only they are not covered on the news. Consider supporting those people instead. [GiveWell](http://givewell.org/) curates a list of effective charities where your donations actually make a good difference.
 
 ## What if you chose a career that makes a lot of money
 
@@ -132,7 +134,7 @@ MacAskill lists 5 questions he thinks any donor should ask before deciding where
 
 ## Which causes are most important?
 
-In order to assess which area we should consider, we should try to prioritze causes which have as many of the following characteristics as possible:
+In order to assess which area we should consider, we should try to prioritize causes which have as many of the following characteristics as possible:
 
 - The problem is of large magnitude (a large number of people are affected)
 - The cause is neglected (its resources are low in comparison to the problem scale)
@@ -156,11 +158,11 @@ MacAskill summarized some problems and their traits in a table (I think these ar
 
 ---
 
-**\*** : Depends on your value judgements
+\* : Depends on your value judgements
 
-**1** : not very / least
+1 : not very / least
 
-**4** : best / most
+4 : best / most
 
 ---
 
@@ -179,7 +181,7 @@ MacAskill recommends four main points that you can do in order to make a differe
 3. Join the effective altruism community
 4. Tell others about the idea of Effective altruism or giving effectively.
 
-You don't have to follow those four points, but if you feel empowered by the idea that you can make a big postive change in other people's lives then consider doing at least one or two of those points.
+You don't have to follow those four points, but if you feel empowered by the idea that you can make a big positive change in other people's lives then consider doing at least one or two of those points.
 
 > If you want to go further than these actions, you might wish to take Giving What We Can’s pledge to donate 10 percent of your income. You could read the career advice on 80,000 Hours, or apply for one-on-one career coaching there. Or you might wish to set up a local meet-up group, starting discussions about effective altruism in your area, with your friends or through your church or university. Further information on all these things is available at effectivealtruism.org.
 
@@ -192,8 +194,6 @@ You don't have to follow those four points, but if you feel empowered by the ide
 - [William MacAskill on Twitter](https://twitter.com/willmacaskill)
 - [80,000 hours: Applying EA to your career](https://80000hours.org/)
 - [A great panel discussion on EA with William MacAskill and Giles Fraser](https://youtu.be/Qslo4-DpzPs)
-
-
 
 ## Acknowledgements, sources, et al
 
@@ -209,4 +209,3 @@ Do not count on this to be an accurate summary if you wish to feel that you've r
 Instead, if this peaked your interest, consider reading it (I have a physical copy you can borrow if you are geographically near me).
 
 If you find something incorrect with this post, please contact me [by mail](mailto:{{ site.mail}}) or submit an issue on [GitHub](https://github.com/johan-andersson01/johan-andersson01.github.io).
-

@@ -1,11 +1,27 @@
 
 - minimalism:
-  title: 'Goodbye, things'
-  author: 'Fumio Sasaki'
-  date: 2018-12-17
+  title: "Goodbye, things"
+  author: "Fumio Sasaki"
+  date: 2017-12-17
   rating: 1
 - oitw:
-  title: 'The obstacle is the way'
-  author: 'Ryan Holiday'
-  date: 2017-02-02
+  title: "The obstacle is the way"
+  author: "Ryan Holiday"
+  date: 2018-02-02
   rating: 2
+- notw:
+  title: "The Name of The Wind"
+  author: "Patrick Rothfuss"
+  date: 2018-06-04
+  rating: 3
+- wmf:
+  title: "The Wise Man's Fear"
+  author: "Patrick Rothfuss"
+  date: 2018-06-9
+  rating: 2
+- stoner:
+  title: "Stoner"
+  author: "John Williams"
+  date: 2018-06-23
+  rating: 4
+  
