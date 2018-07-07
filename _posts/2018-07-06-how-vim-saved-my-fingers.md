@@ -61,3 +61,13 @@ It was a defining moment for me, since it was here I caught my first glimpse int
 I also learned (accidentally) that you can make recursive macros. I have yet to figure out why you would want to do so though.
 
 <script src="https://asciinema.org/a/RvPUqeg4X1lNe8lJr0JwqITt3.js" id="asciicast-RvPUqeg4X1lNe8lJr0JwqITt3" async></script>
+
+### Update!
+
+After some sleep I've already had my first use case for recursive macros! I had to rename 101 filenames for a TV show so that Kodi could parse it and add it to my library. Each filename had the same structure, but Kodi could not understand that structure.
+
+To rename all the files, I fired up [ranger](https://github.com/ranger/ranger) and used bulkrename which loads all the filenames into a Vim buffer. Inside Vim, I then recorded a macro that would change the current line's filename and then go one line down and call itself. Unlike the infinite recursion above, the macro stopped at EOF since it encountered an error (trying to find a character that didn't exist).
+
+Hurray for recursion!
+
+
