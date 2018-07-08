@@ -74,7 +74,7 @@ Hurray for recursion!
 
 1. Find a site with a lot of quotes (e.g. [this one](https://fortrabbit.github.io/quotes/))
 2. Save the raw html file and open it in Vim
-3. Record a recursive macro that formats the quotes in the `.html` file with a `%` character between each quote like this:
+3. Record and run a recursive macro that formats the quotes in the `.html` file with a `%` character between each quote like this:
 
 ```
 Computers do not solve problems, they execute solutions.
