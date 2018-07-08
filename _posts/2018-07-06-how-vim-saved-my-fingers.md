@@ -70,4 +70,26 @@ To rename all the files, I fired up [ranger](https://github.com/ranger/ranger) a
 
 Hurray for recursion!
 
+### Update 2: An exercise for the reader
+
+1. Find a site with a lot of quotes (e.g. [this one](https://fortrabbit.github.io/quotes/))
+2. Save the raw html file and open it in Vim
+3. Record a recursive macro that formats the quotes in the .html file with a % character betwwen each quote like this:
+
+```
+Computers do not solve problems, they execute solutions.
+%
+While you were minoring in Gender Studies and singing a capella, I was getting root access to NSA servers.
+%
+$ make me a sandwich.
+> no, make it yourself
+$ sudo make me a sandwich
+> OK
+```
+4. Install fortune-mod
+5. Remove all files in `/usr/share/games/fortunes/`
+6. Run `strfile -c % your-parsed-html-doc your-parsed-html-doc.dat`
+7. Copy `your-parsed-html-doc` and  `your-parsed-html-doc.dat` to `/usr/share/games/fortunes/`
+8. Profit
+
 
