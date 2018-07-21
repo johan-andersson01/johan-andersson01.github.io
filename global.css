@@ -1,0 +1,49 @@
+body {
+background-color:hsl(45, 60%, 80%);
+}
+
+h1 {
+font-size: 180%;
+}
+
+h2 {
+font-size: 120%;
+padding-bottom: 5px;
+}
+
+h1, h2 {
+    color:#222;
+}
+
+
+header, main {
+    max-width:900px;
+    margin:0px auto;
+    padding:20px;
+}
+
+header {
+    margin-top:20px;
+}
+
+header {
+    text-align: center;
+}
+
+.header-footer {
+    margin-top:20px;
+}
+
+header a {
+    padding:10px;
+    text-transform:uppercase;
+    color:rgb(255, 126, 6);
+    text-decoration: none;
+    background:pink;
+    letter-spacing:2px;
+}
+
+header a:hover {
+    filter:sepia(80%);
+    box-shadow:2px 5px #444;
+}
