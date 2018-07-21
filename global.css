@@ -47,3 +47,12 @@ header a:hover {
     filter:sepia(80%);
     box-shadow:2px 5px #444;
 }
+
+blockquote, pre {
+    margin:0px;
+    padding:10px;
+}
+
+code, blockquote, pre {
+    background-color:hsl(45, 60%, 90%);
+}
