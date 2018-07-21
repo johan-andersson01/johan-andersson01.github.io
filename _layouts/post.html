@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article>
+    <div class="post-header">
+        <h2>
+            {{ page.title | escape }}
+        </h2>
+        <h5> 
+            {{ page.date | date_to_string }}
+        </h5>
+    </div>
+    {{ content }}
+</article>

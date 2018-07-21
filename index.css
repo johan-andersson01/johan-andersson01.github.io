@@ -1,30 +1,9 @@
-@import "minima";
-
 * {
 margin:0px;
 padding:0px;
 font-family: 'Helvetica', 'Arial', sans-serif;
 font-weight: lighter;
 list-style: none;
-
-}
-
-body {
-background-color:rgb(255, 255, 255);
-}
-
-/*General tags */
-h1 {
-font-size: 180%;
-}
-
-h2 {
-font-size: 120%;
-padding-bottom: 5px;
-}
-
-h1, h2 {
-    color:#222;
 }
 
 ul {
@@ -32,107 +11,64 @@ ul {
     margin-bottom: 10px;
 }
 
-p, li {
-    padding-left: 20px;
-}
-
-#hash {
-    word-break: break-all;
-    font-family: monospace;
-    font-variant-position: sub;
-}
-
 li {
-    padding-top: 2px;
-    width:95%;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #999;
+    color:#444;
+    background:hsla(0,100%,100%,0.2);
+    min-height:30px;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+    align-items:center;
+    margin-bottom:2px;
+}
+
+ul li:first-child {
+    background:pink;
+    color:rgb(255, 126, 6);
+    filter:sepia(80%);
 }
 
 a {
-color:rgb(255, 126, 6);
-text-decoration: none;
-padding:1px;
-}
-
-a:visited {
+    text-transform:uppercase;
     color:rgb(255, 126, 6);
+    text-decoration: none;
+    background:pink;
+    letter-spacing:2px;
 }
 
 a:hover {
-    filter:invert(100%);
+    filter:sepia(80%);
+    box-shadow:2px 5px #444;
 }
 
-
-.bookrating {
-    white-space: nowrap;
-}
-
-.bookrating img{
-    width:20px;
-    height:auto;
-    filter: grayscale(1);
-}
-
-/* Alignments and containers */
-
-header, main {
-    max-width:900px;
-    margin:0px auto;
-    padding:20px;
-}
-
-header {
-    margin-top:20px;
-}
-
-header .container {
-    width: 100%;
-    text-align: center;
+li, li a {
+    text-transform:uppercase;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
 }
 
 .left {
-    padding-right:20px;
+    padding:10px;
+    padding-left:20px;
 }
 
 .right {
-   text-align: right;
-   color: #777;
+    padding:10px;
+    text-align: right;
+    color: #777;
+    text-transform:lowercase;
 }
 
-.container {
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header img {
-    border-radius: 50%;
-    width:25%;
-    min-width: 200px;
+.bookrating {
+    width:20px;
     height:auto;
-    filter: sepia(0.15);
-    margin-bottom: 20px;
 }
 
-/* Mobile */
-@media (max-width: 480px) { 
-    header {
-        margin-top: -30px;
-        height:100%;
-    }
-    header img {
-        width:80%;
-    }
-    h1 {
-        font-size: 280%;
-    }
-    h2 {
-        font-size: 180%;
-    }
-    li, p, a {
-        font-size: 120%;
-    }
- }
+.rating-filled {
+    filter: sepia(50%);
+}
+
+.rating-unfilled {
+    filter: sepia(50%);
+    filter: grayscale(0.7);
+}
