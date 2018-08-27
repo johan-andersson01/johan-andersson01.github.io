@@ -112,7 +112,7 @@
                 {% for book in site.data.books %}
                     <li>
                         <span class="left">
-                            {{ book.author }}: {{ book.title }}
+                            {{ book.author }}: {{ book.title }} [{{ book.lang }}]
                         </span>
                         <span class="right">
                             {{book.date | date_to_string}}
