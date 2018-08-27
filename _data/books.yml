@@ -4,33 +4,46 @@
   author: "Fumio Sasaki"
   date: 2017-12-17
   rating: 1
+  lang: "en"
 - oitw:
   title: "The obstacle is the way"
   author: "Ryan Holiday"
   date: 2018-02-02
   rating: 2
+  lang: "en"
 - notw:
   title: "The Name of The Wind"
   author: "Patrick Rothfuss"
   date: 2018-06-04
   rating: 3
+  lang: "en"
 - wmf:
   title: "The Wise Man's Fear"
   author: "Patrick Rothfuss"
   date: 2018-06-9
   rating: 2
+  lang: "en"
 - stoner:
   title: "Stoner"
   author: "John Williams"
   date: 2018-06-23
   rating: 4
+  lang: "en"
 - catscradle:
   title: "Cat's Cradle"
   author: "Kurt Vonnegut"
   date: 2018-07-19
   rating: 2
+  lang: "en"
 - liftarensguide1:
-  title: "Liftarens guide till galaxen"
+  title: "The Hitchhiker's Guide to the Galaxy"
   author: "Douglas Adams"
   date: 2018-07-28
   rating: 2
+  lang: "sv"
+- housekeeperprofessor:
+  title: "The Housekeeper and the Professor"
+  author: "Yoko Ogawa"
+  date: 2018-08-27
+  rating: 1
+  lang: "en"
