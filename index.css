@@ -6,6 +6,7 @@ font-weight: lighter;
 list-style: none;
 }
 
+
 ul {
     width:100%;
     margin-bottom: 10px;
@@ -22,7 +23,7 @@ li {
 }
 
 ul li:first-child {
-    background:#eee;
+    background:#E8970C;
     color:#444;
 }
 

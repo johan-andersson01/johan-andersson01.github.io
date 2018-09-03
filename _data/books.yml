@@ -47,3 +47,15 @@
   date: 2018-08-27
   rating: 1
   lang: "sv"
+- siddharta:
+  title: "Siddhartha"
+  author: "Hermann Hesse"
+  date: 2018-09-01
+  rating: 3
+  lang: "en"
+- deepnessinthesky:
+  title: "A Deepness in the Sky"
+  author: "Vernon Vinge"
+  date: 2018-09-03
+  rating: 4
+  lang: "en"
