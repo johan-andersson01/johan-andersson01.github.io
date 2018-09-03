@@ -2,6 +2,15 @@ body {
 background-color:#fff;
 }
 
+header h1, header p, header a {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: lighter;
+}
+
+header p {
+    margin:30px;
+}
+
 h1 {
 font-size: 180%;
 }
