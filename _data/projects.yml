@@ -5,20 +5,15 @@
   description: 'free book donations service '
   lang: 'Rails'
 - skanetrafiken_feeder:
-  title: 'skåne bussfeed'
-  url: 'https://github.com/johan-andersson01/skane_bussfeed'
-  description: 'personalized feed of buses / trains in Skåne '
-  lang: 'Node'
+  title: 'bussterminal'
+  url: 'https://github.com/johan-andersson01/bussterminal'
+  description: 'live info from Skånetrafiken, without leaving the terminal'
+  lang: 'Javascript'
 - blog:
   title: 'johan.fun (this site!)'
   url: 'https://github.com/johan-andersson01/johan-andersson01.github.io'
   description: 'blog / portfolio / personal space'
-  lang: 'Node'
-- game:
-  title: 'game of life'
-  url: 'https://johan.fun/game-of-life/index.html'
-  description: "interactive Conway's game of life"
-  lang: 'Javascript'
+  lang: 'Jekyll'
 - typefast:
   title: 'type fast'
   url: 'https://github.com/johan-andersson01/typefast'
