@@ -3,7 +3,7 @@ layout: post
 title: 'How Vim saved my fingers'
 ---
 
-At work I am currently migrating a large codebase from Bootstrap 3 to Bootstrap 4. There are a lot of small changes that make this a daunting task and one of those is the change to breadcrumbs.
+Once, I found myself migrating a large codebase for a web application from Bootstrap 3 to Bootstrap 4. There are a lot of small changes that make this a daunting task and one of those is the change to breadcrumbs.
 
 In the codebase, there were 39 instances (each in a separate file) of Bootstrap's [breadcrumb](https://getbootstrap.com/docs/4.0/components/breadcrumb/), with a total of 127 `li` elements inside.
 
