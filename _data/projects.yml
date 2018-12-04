@@ -4,11 +4,16 @@
   url: 'https://biblion.se'
   description: 'free book donations service '
   lang: 'Rails'
-- skanetrafiken_feeder:
+- bussterminal:
   title: 'bussterminal'
   url: 'https://github.com/johan-andersson01/bussterminal'
   description: 'live info from Skånetrafiken, without leaving the terminal'
   lang: 'Javascript'
+- swedef:
+  title: 'swedef'
+  url: 'https://github.com/johan-andersson01/swedef'
+  description: 'look up definitions and more of Swedish words, without leaving the terminal'
+  lang: 'python'
 - blog:
   title: 'johan.fun (this site!)'
   url: 'https://github.com/johan-andersson01/johan-andersson01.github.io'
