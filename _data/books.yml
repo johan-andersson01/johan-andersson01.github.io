@@ -64,4 +64,9 @@
   author: "Isaac Asimov"
   date: 2018-11-15
   rating: 3
+- autonomous:
+  title: "Autonomous"
+  author: "Annalee Newitz"
+  date: 2018-12-24
+  rating: 2
   lang: "en"
