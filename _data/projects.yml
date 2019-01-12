@@ -24,4 +24,9 @@
   url: 'https://github.com/johan-andersson01/typefast'
   description: 'game to improve your typing speed'
   lang: 'c'
+- photo_organizer:
+  title: 'photo_organizer'
+  url: 'https://github.com/johan-andersson01/photo_organizer'
+  description: 'organize your photos/videos by date'
+  lang: 'python'
   
