@@ -64,6 +64,7 @@
   author: "Isaac Asimov"
   date: 2018-11-15
   rating: 3
+  lang: "en"
 - autonomous:
   title: "Autonomous"
   author: "Annalee Newitz"
@@ -75,3 +76,4 @@
   author: "Richard Feynman"
   date: 2019-01-29
   rating: 5
+  lang: "en"
