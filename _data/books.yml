@@ -59,9 +59,19 @@
   date: 2018-09-03
   rating: 4
   lang: "en"
+- foundation:
+  title: "Foundation"
+  author: "Isaac Asimov"
+  date: 2018-11-15
+  rating: 3
+- autonomous:
+  title: "Autonomous"
+  author: "Annalee Newitz"
+  date: 2018-12-24
+  rating: 2
+  lang: "en"
 - jokingfeynman:
   title: "Surely You're Joking Mr. Feynman"
   author: "Richard Feynman"
   date: 2019-01-29
   rating: 5
-  lang: "en"
