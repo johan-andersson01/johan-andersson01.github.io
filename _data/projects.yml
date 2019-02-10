@@ -29,4 +29,9 @@
   url: 'https://github.com/johan-andersson01/photo_organizer'
   description: 'organize your photos/videos by date'
   lang: 'python'
+- hn_comments_blocker:
+  title: 'hn-comments-blocker'
+  url: 'https://github.com/johan-andersson01/hn_comments_blocker'
+  description: 'block HN comments until you have read the OP'
+  lang: 'javascript'
   
