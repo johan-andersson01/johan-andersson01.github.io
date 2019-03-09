@@ -31,7 +31,7 @@
   lang: 'python'
 - hn_comments_blocker:
   title: 'hn-comments-blocker'
-  url: 'https://github.com/johan-andersson01/hn_comments_blocker'
+  url: 'https://github.com/johan-andersson01/hn-comments-blocker'
   description: 'block HN comments until you have read the OP'
   lang: 'javascript'
   
