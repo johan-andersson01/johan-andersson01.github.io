@@ -4,6 +4,7 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Johan Andersson</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="/index.css">
@@ -83,13 +84,15 @@
                 </li>
                 {% for book in site.data.books %}
                     <li>
-                        <span class="left">
-                            {{ book.author }}: {{ book.title }} [{{ book.lang }}]
-                        </span>
-                        <span class="right">
-                            {{book.date | date_to_string}}
-                            <span class="bookrating">{{book.rating}}</span>
-                        </span>
+                        <a href="https://duckduckgo.com/?q={{ book.author }}+{{book.title}}">
+                            <span class="left">
+                                {{ book.author }}: {{ book.title }} [{{ book.lang }}]
+                            </span>
+                            <span class="right">
+                                {{book.date | date_to_string}}
+                                <span class="bookrating">{{book.rating}}</span>
+                            </span>
+                        </a>
                     </li>
                 {% endfor %}
             </ul>
@@ -104,10 +107,10 @@
             ratings[x].innerHTML = '';
             for (i = 0; i < 5; i++) {
                 if (i < rating) {
-                    ratings[x].innerHTML += '<span class="rating-filled">👏</span>';
+                    ratings[x].innerHTML += '<span class="rating-filled">🍏</span>';
                 }
                 else {
-                    ratings[x].innerHTML += '<span class="rating-unfilled">👏</span>';
+                    ratings[x].innerHTML += '<span class="rating-unfilled">🍏</span>';
                 }
             }
         }
