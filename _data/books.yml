@@ -83,3 +83,15 @@
   date: 2019-02-08
   rating: 3
   lang: "en"
+- gatsby:
+  title: "The Great Gatsby"
+  author: "F. Scott Fitzgerald"
+  date: 2019-07-09
+  rating: 3
+  lang: "en"
+- shostakovich:
+  title: "The Noise of Time"
+  author: "Julian Barnes"
+  date: 2019-07-15
+  rating: 2
+  lang: "sv"
