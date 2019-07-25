@@ -95,3 +95,10 @@
   date: 2019-07-15
   rating: 2
   lang: "sv"
+- 3bodyproblem:
+  title: "Three-Body Problem"
+  author: "Liu Cixin"
+  date: "2019-07-22"
+  rating: 4
+  lang: "en"
+
