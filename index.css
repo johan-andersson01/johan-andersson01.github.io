@@ -15,14 +15,12 @@ li {
     color:#839496;
     background:#073642;
     min-height:30px;
-    border-bottom: 1px solid #586e75;
-    border-right: 1px solid  #586e75;
     display:flex;
     align-items:center;
     margin-bottom:2px;
 }
 
-ul li:first-child {
+ul > *:first-child {
     background:#2aa198;
     color: #fdf6e3;
 }
@@ -76,4 +74,45 @@ li a {
 
 .rating-unfilled {
     filter: grayscale(1);
+}
+
+li[type="checkbox"] {
+    display: none;
+}
+
+.toggle-label::before {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+
+  vertical-align: middle;
+  margin-right: .7rem;
+  margin-left: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-label {
+  text-transform:uppercase;
+  display: block;
+  cursor: pointer;
+  padding:10px;
+  margin:0px;
+}
+
+.collapse-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+}
+
+.toggle-label + .toggle:checked + .collapse-content{
+  max-height: none;
 }

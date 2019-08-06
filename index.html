@@ -77,11 +77,11 @@
                 {% endfor %}
             </ul>
             <ul>
-                <li>
-                    <span class="left">
+                <label for="collapse" class="left toggle-label">
                         recently read books
-                    </span>
-                </li>
+                </label>
+                <input id="collapse" class="toggle" type="checkbox">
+                <div class="collapse-content">
                 {% for book in site.data.books %}
                     <li>
                         <a href="https://duckduckgo.com/?q={{ book.author }}+{{book.title}}">
@@ -95,6 +95,7 @@
                         </a>
                     </li>
                 {% endfor %}
+                </div>
             </ul>
         </section>
     </main>
