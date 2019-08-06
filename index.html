@@ -86,7 +86,7 @@
                     <li>
                         <a href="https://duckduckgo.com/?q={{ book.author }}+{{book.title}}">
                             <span class="left">
-                                {{ book.author }}: {{ book.title }} [{{ book.lang }}]
+                                {{ book.author }}: {{ book.title }} [{{ book.lang }}{% if book.audio %}, 🎧 {% endif %}]
                             </span>
                             <span class="right">
                                 {{book.date | date_to_string}}
