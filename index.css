@@ -13,7 +13,7 @@ ul {
 
 li {
     color:#839496;
-    background:#073642;
+    background:#eee8d5;
     min-height:30px;
     display:flex;
     align-items:center;
@@ -21,7 +21,7 @@ li {
 }
 
 ul > *:first-child {
-    background:#2aa198;
+    background:#6c71c4;
     color: #fdf6e3;
 }
 

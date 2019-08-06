@@ -1,6 +1,6 @@
 body {
-color: #839496;
-background-color:#002b36;
+color: #444;
+background-color:#fdf6e3;
 }
 
 header h1, header p, header a {
@@ -9,7 +9,7 @@ header h1, header p, header a {
 }
 
 a {
-    color: #859900;
+    color: #268bd2;
 } 
 
 header p {
@@ -53,7 +53,7 @@ header a {
     text-transform:uppercase;
     color: #dc322f;
     text-decoration: none;
-    background:#073642;
+    background:#eee8d5;
     letter-spacing:2px;
 }
 
@@ -74,6 +74,6 @@ code, blockquote, pre {
             white-space: -pre-wrap;
             white-space: -o-pre-wrap;
             word-wrap: break-word;
-    background-color:#073642;
-    color: #657b83;
+    background-color:#eee8d5;
+    color: #d33682;
 }
