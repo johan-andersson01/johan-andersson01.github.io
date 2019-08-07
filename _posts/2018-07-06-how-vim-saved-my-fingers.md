@@ -45,10 +45,6 @@ Having opened the file I did the following:
 
 Having recorded the macro, it was time to use it. With two terminal windows open in split screen, one with Vim and one with the output of `rg breadcrumb`, I went through all files and performed the upgrade. To switch files inside Vim, and thus retaining my macro, I used [fzf](https://github.com/junegunn/fzf) which I had bound to `<s-f>` (in the following demonstration I used `:find` instead, but it's practically the same).
 
-*(In reality, I recorded two macros: the one below, and another that changed `li class="active"` element into `li class="breadcrumb-item active"`)*
-
-<script src="https://asciinema.org/a/QYVOm17UhbYKaVr5VDcQGdILi.js" id="asciicast-QYVOm17UhbYKaVr5VDcQGdILi" async></script>
-
 I performed the above sequence one time, and then used it in each of the 39 files, 127 times in total, which understandably sped up the process while preventing it from becoming a boring task.
 
 While I didn't manage to do it with one keystroke per file or with one keystroke for all files (there is however a [tradeoff](https://xkcd.com/1205/)), I am still giddy that I managed to reduce the cognitive load of updating the `breadcrumbs`.
@@ -56,19 +52,20 @@ While I didn't manage to do it with one keystroke per file or with one keystroke
 It was a defining moment for me, since it was here I caught my first glimpse into why and how Vim is more powerful than the regular editors that I have previously used.
 
 
----
 
 I also learned (accidentally) that you can make recursive macros. I have yet to figure out why you would want to do so though.
 
-<script src="https://asciinema.org/a/RvPUqeg4X1lNe8lJr0JwqITt3.js" id="asciicast-RvPUqeg4X1lNe8lJr0JwqITt3" async></script>
+---
 
 ### Update!
 
 After some sleep I've already had my first use case for recursive macros! I had to rename 101 filenames for a TV show so that Kodi could parse it and add it to my library. Each filename had the same structure, but Kodi could not understand that structure.
 
-To rename all the files, I fired up [ranger](https://github.com/ranger/ranger) and used bulkrename which loads all the filenames into a Vim buffer. Inside Vim, I then recorded a macro that would change the current line's filename and then go one line down and call itself. Unlike the infinite recursion above, the macro stopped at EOF since it encountered an error (trying to find a character that didn't exist).
+To rename all the files, I fired up [ranger](https://github.com/ranger/ranger) and used `:bulkrename` which loads all the filenames into a Vim buffer. Inside Vim, I then recorded a macro that would change the current line's filename and then go one line down and call itself. The macro stopped at EOF since it encountered an error (trying to find a character that didn't exist).
 
 Hurray for recursion!
+
+---
 
 ### Update 2: An exercise for the reader
 
