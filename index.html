@@ -32,6 +32,18 @@
                     </a>
                 </li>
                 {% endfor %}
+                {% for notebook in site.data.notebooks %}
+                <li>
+                    <a href="{{notebook.url}}">
+                        <span class="left">
+                            {{notebook.title}}
+                        </span>
+                        <span class="right">
+                            {{notebook.description}}
+                        </span>
+                    </a>
+                </li>
+                {% endfor %}
             </ul>
             {% assign nbrposts = site.posts | size %}
             <ul>
