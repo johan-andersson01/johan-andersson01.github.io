@@ -125,8 +125,8 @@
   rating: 4
   lang: "en"
   audio: true
-  - alice:
-  title: "Alice's Adventures in Wonderland
+- alice:
+  title: "Alice's Adventures in Wonderland"
   author: "Lewis Carroll"
   date: "2019-09-15"
   rating: 1
