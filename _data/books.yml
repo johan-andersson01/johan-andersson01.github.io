@@ -3,132 +3,113 @@
   title: "Goodbye, things"
   author: "Fumio Sasaki"
   date: 2017-12-17
-  rating: 1
   lang: "en"
   audio: false
 - oitw:
   title: "The obstacle is the way"
   author: "Ryan Holiday"
   date: 2018-02-02
-  rating: 2
   lang: "en"
   audio: false
 - notw:
   title: "The Name of The Wind"
   author: "Patrick Rothfuss"
   date: 2018-06-04
-  rating: 3
   lang: "en"
   audio: false
 - wmf:
   title: "The Wise Man's Fear"
   author: "Patrick Rothfuss"
   date: 2018-06-9
-  rating: 2
   lang: "en"
   audio: false
 - stoner:
   title: "Stoner"
   author: "John Williams"
   date: 2018-06-23
-  rating: 4
   lang: "en"
   audio: false
 - catscradle:
   title: "Cat's Cradle"
   author: "Kurt Vonnegut"
   date: 2018-07-19
-  rating: 2
   lang: "en"
   audio: false
 - liftarensguide1:
   title: "The Hitchhiker's Guide to the Galaxy"
   author: "Douglas Adams"
   date: 2018-07-28
-  rating: 2
   lang: "sv"
   audio: false
 - housekeeperprofessor:
   title: "The Housekeeper and the Professor"
   author: "Yoko Ogawa"
   date: 2018-08-27
-  rating: 1
   lang: "sv"
   audio: false
 - siddharta:
   title: "Siddhartha"
   author: "Hermann Hesse"
   date: 2018-09-01
-  rating: 3
   lang: "en"
   audio: true
 - deepnessinthesky:
   title: "A Deepness in the Sky"
   author: "Vernon Vinge"
   date: 2018-09-03
-  rating: 4
   lang: "en"
   audio: false
 - foundation:
   title: "Foundation"
   author: "Isaac Asimov"
   date: 2018-11-15
-  rating: 3
   lang: "en"
   audio: true
 - autonomous:
   title: "Autonomous"
   author: "Annalee Newitz"
   date: 2018-12-24
-  rating: 2
   lang: "en"
   audio: false
 - jokingfeynman:
   title: "Surely You're Joking Mr. Feynman"
   author: "Richard Feynman"
   date: 2019-01-29
-  rating: 5
   lang: "en"
   audio: false
 - powerofhabit:
   title: "The Power of Habit"
   author: "Charles Duhigg"
   date: 2019-02-08
-  rating: 3
   lang: "en"
   audio: false
 - gatsby:
   title: "The Great Gatsby"
   author: "F. Scott Fitzgerald"
   date: 2019-07-09
-  rating: 3
   lang: "en"
   audio: false
 - shostakovich:
   title: "The Noise of Time"
   author: "Julian Barnes"
   date: 2019-07-15
-  rating: 2
   lang: "sv"
   audio: false
 - 3bodyproblem:
   title: "Three-Body Problem"
   author: "Liu Cixin"
   date: "2019-07-22"
-  rating: 4
   lang: "en"
   audio: true
 - darkforest:
   title: "The Dark Forest"
   author: "Liu Cixin"
   date: "2019-08-02"
-  rating: 4
   lang: "en"
   audio: true
 - alice:
   title: "Alice's Adventures in Wonderland"
   author: "Lewis Carroll"
   date: "2019-09-15"
-  rating: 1
   lang: "sv"
   audio: false
