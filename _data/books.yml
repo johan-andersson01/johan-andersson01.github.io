@@ -119,3 +119,9 @@
   date: "2019-10-14"
   lang: "sv"
   audio: false
+- montecristo
+  title: "The Count of Monte Cristo"
+  author: "Alexandre Dumas"
+  date: "2020-02-04"
+  lang: "en"
+  audio: false
