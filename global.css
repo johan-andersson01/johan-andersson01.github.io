@@ -1,6 +1,6 @@
 body {
-color: #444;
-background-color:#fdf6e3;
+color: hsl(170,10%,80%);
+background-color:#222;
 }
 
 header h1, header p, header a {
@@ -8,8 +8,12 @@ header h1, header p, header a {
     font-weight: lighter;
 }
 
+p {
+    font-size: 120%;
+}
+
 a {
-    color: #268bd2;
+    color: hsl(170,80%,50%);
 } 
 
 header p {
@@ -25,8 +29,8 @@ font-size: 120%;
 padding-bottom: 5px;
 }
 
-h1, h2 {
-    color:#268bd2;
+h1, h2, h3 {
+    color: hsl(170,80%,40%);
 }
 
 
@@ -35,6 +39,19 @@ header, main {
     margin:0px auto;
     padding:20px;
 }
+
+@media only screen and (max-width: 600px) {
+    header, main {
+        max-width:100%;
+        margin:0px auto;
+        padding:0px;
+    }
+    
+    header {
+        padding-bottom:20px;
+    }
+}
+
 
 header {
     margin-top:20px;
@@ -51,15 +68,15 @@ header {
 header a {
     padding:10px;
     text-transform:uppercase;
-    color: #dc322f;
+    color: #fff;
     text-decoration: none;
-    background:#eee8d5;
+    background:hsl(170,50%,20%);
     letter-spacing:2px;
 }
 
 header a:hover {
-    background:#268bd2;
-    color: #fdf6e3;
+    background:hsl(170,50%,5%);
+    color:hsl(170,50%,50%);
 }
 
 blockquote, pre {
@@ -68,12 +85,13 @@ blockquote, pre {
 }
 
 code, blockquote, pre {
-                overflow-x: auto;
-            white-space: pre-wrap;
-            white-space: -moz-pre-wrap;
-            white-space: -pre-wrap;
-            white-space: -o-pre-wrap;
-            word-wrap: break-word;
-    background-color:#eee8d5;
-    color: #d33682;
+    overflow-x:  auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap:   break-word;
+    background-color:hsl(150,50%,5%);
+    color: hsl(170,60%,40%);
+    font-size:110%;
 }

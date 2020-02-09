@@ -7,14 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Johan Andersson</title>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="/index.css">
 <link rel="stylesheet" type="text/css" href="/global.css">
+<link rel="stylesheet" type="text/css" href="/index.css">
 </head>
 <body>
     {% include header.html %}
     <main>
         <section>
-            <ul>
+            <ul class="fun">
                 <li>
                     <span class="left">
                         free time fun
@@ -46,7 +46,7 @@
                 {% endfor %}
             </ul>
             {% assign nbrposts = site.posts | size %}
-            <ul>
+            <ul class="blog-posts">
                 <li>
                     <span class="left">
                         blog posts
@@ -72,7 +72,8 @@
                   </li>
                 {% endfor %}
             </ul>
-            <ul>
+            <section>
+            <ul class="social">
                 <li>
                     <span class="left">
                         social
@@ -88,9 +89,9 @@
                         </li>
                 {% endfor %}
             </ul>
-            <ul>
+            <ul class="books">
                 <label for="collapse" class="left toggle-label">
-                        recently read books
+                        reading history
                 </label>
                 <input id="collapse" class="toggle" type="checkbox">
                 <div class="collapse-content">
@@ -108,6 +109,7 @@
                 {% endfor %}
                 </div>
             </ul>
+            </section>
         </section>
     </main>
 </body>
