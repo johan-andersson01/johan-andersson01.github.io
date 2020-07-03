@@ -9,11 +9,12 @@ list-style: none;
 
 ul {
     margin-bottom: 10px;
+    grid-colum: span 1;
 }
 
 li {
-    color:#586e75;
-    background:#eee8d5;
+    color: hsl(170,10%,80%);
+    background:hsl(170,10%,10%);
     min-height:30px;
     display:flex;
     align-items:center;
@@ -21,23 +22,22 @@ li {
 }
 
 ul > *:first-child {
-    background:#6c71c4;
-    color: #fdf6e3;
+    background: hsl(170,50%,20%);
+    color: #fff;
 }
 
 a {
     text-transform:uppercase;
-    color:#444;
     text-decoration: none;
     letter-spacing:2px;
 }
 
 a:hover span {
-    color:#fdf6e3;
+    color:hsl(170,50%,50%);
 }
 
 a:hover {
-    background: #268bd2;
+    background:hsl(170,50%,5%);
 }
 
 li, li a {
@@ -51,6 +51,29 @@ li a {
     justify-content: space-between;
 }
 
+main {
+    max-width:100%;
+}
+
+main > section {
+    max-width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap: 20px;
+}
+
+.blog-posts {
+}
+
+.fun {
+}
+
+.social {
+}
+
+.books {
+}
+
 .left {
     padding:10px;
     padding-left:20px;
@@ -59,7 +82,7 @@ li a {
 .right {
     padding:10px;
     text-align: right;
-    color:#586e75;
+    color:hsl(170,30%,40%);
     text-transform:lowercase;
 }
 
