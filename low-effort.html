@@ -20,16 +20,57 @@
                         free time fun
                     </span>
                 </li>
+                {% for project in site.data.projects %}
                 <li>
-                    <a href="low-effort.html">
+                    <a href="{{project.url}}">
                         <span class="left">
-                            low effort archives
+                            {{project.title}}
                         </span>
                         <span class="right">
-                            Here lies the old, unpolished stuff 
+                            {{project.description}}
                         </span>
                     </a>
                 </li>
+                {% endfor %}
+                {% for notebook in site.data.notebooks %}
+                <li>
+                    <a href="{{notebook.url}}">
+                        <span class="left">
+                            {{notebook.title}}
+                        </span>
+                        <span class="right">
+                            {{notebook.description}}
+                        </span>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% assign nbrposts = site.posts | size %}
+            <ul class="blog-posts">
+                <li>
+                    <span class="left">
+                        blog posts
+                    </span>
+                </li>
+                {% if nbrposts == 0 %}
+                <li>
+                    <span class="left">
+                        sorry, no posts yet
+                    </span>
+                </li>
+                {% endif %}
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">
+                        <span class="left">
+                            {{ post.title }}
+                        </span>
+                        <span class="right">
+                            {{post.date | date_to_string}}
+                        </span>
+                    </a>
+                  </li>
+                {% endfor %}
             </ul>
             <section>
             <ul class="social">
