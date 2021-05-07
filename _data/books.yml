@@ -131,9 +131,15 @@
   date: "2020-03-15"
   lang: "en"
   audio: false
-- circe:
+- dune:
   title: "Dune"
   author: "Frank Herbert"
   date: "2020-05-07"
   lang: "en"
   audio: false
+- wot:
+  title: "Wheel of Time Series"
+  author: "Robert Jordan & Brandon Sanderson"
+  date: "2021-05-07"
+  lang: "en"
+  audio: true
