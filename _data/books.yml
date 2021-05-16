@@ -143,3 +143,9 @@
   date: "2021-05-07"
   lang: "en"
   audio: true
+- wot:
+  title: "A Wizard of Earthsea"
+  author: "Ursula Le Guin"
+  date: "2021-05-09"
+  lang: "en"
+  audio: false
